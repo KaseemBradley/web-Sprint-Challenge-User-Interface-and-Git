@@ -216,7 +216,6 @@ nav a:hover {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -295,4 +294,53 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About Page Styles */
+
+.top-text {
+  margin: 0rem 0rem 1rem 1rem;
+}
+
+.about-top {
+  border-bottom: 1px dashed black;
+  margin-bottom: 1.5rem;
+}
+
+.about-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.about-items h3 {
+  margin-top: 1rem;
+}
+
+.about-items p {
+  margin-bottom: 1rem;
+}
+
+.about-items button {
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  width: 7.5rem;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.about-items {
+  border-bottom: 1px dashed black;
+  margin-bottom: 3rem;
+}
+
+.about-bottom {
+  margin-left: 1rem;
+}
+
+.about-bottom p {
+  margin-bottom: 2.5rem;
 }
